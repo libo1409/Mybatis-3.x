@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace:名称空间，一般需要保持全局唯一，最好是和dao层的java接口一致
+
+    可以映射 sql 语句 到对应的方法名称和参数、返回类型
+
+    mybatis是使用接口动态代理
+ -->
+
+<mapper namespace="net.xdclass.online_class.dao.VideoOrderMapper">
+
+    <resultMap id="VideoOrderResultMap" type="VideoOrder">
+
+        <id column="id" property="id"/>
+        <result column="user_id" property="userId"/>
+        <result column="out_trade_no" property="outTradeNo"/>
+        <result column="create_time" property="createTime"/>
+        <result column="state" property="state"/>
+        <result column="total_fee" property="totalFee"/>
+        <result column="video_id" property="videoId"/>
+        <result column="video_title" property="videoTitle"/>
+        <result column="video_img" property="videoImg"/>
+
+        <!--
+            association 配置属性一对一
+            property   对应VideoOrder里面的user属性名
+            javaType  这个属性的类型
+         -->
+        <association property="user" javaType="User">
+
+            <id property="id" column="user_id"/>
+            <result property="name" column="name"/>
+            <result property="headImg" column="head_img"/>
+            <result property="createTime" column="create_time"/>
+            <result property="phone" column="phone"/>
+            
+        </association>
+
+    </resultMap>
+
+    <!--  一对一管理查询订单，订单内部包含用户属性          -->
+    <select id="queryVideoOrderList" resultMap="VideoOrderResultMap">
+
+        select
+        o.id id,
+        o.user_id,
+        o.out_trade_no,
+        o.create_time,
+        o.state,
+        o.total_fee,
+        o.video_id,
+        o.video_title,
+        o.video_img,
+
+        u.name,
+        u.head_img,
+        u.create_time,
+        u.phone
+        from video_order o left join user u on o.user_id=u.id;
+
+    </select>
+
+
+</mapper>
