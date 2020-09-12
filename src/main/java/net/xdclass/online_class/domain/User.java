@@ -1,6 +1,7 @@
 package net.xdclass.online_class.domain;
 
 import java.util.Date;
+import java.util.List;
 
 public class User {
 
@@ -24,6 +25,16 @@ public class User {
     private String phone;
 
     private Date createTime;
+
+    private List<VideoOrder> videoOrderList;
+
+    public List<VideoOrder> getVideoOrderList() {
+        return videoOrderList;
+    }
+
+    public void setVideoOrderList(List<VideoOrder> videoOrderList) {
+        this.videoOrderList = videoOrderList;
+    }
 
     public int getId() {
         return id;
@@ -82,6 +93,7 @@ public class User {
                 ", headImg='" + headImg + '\'' +
                 ", phone='" + phone + '\'' +
                 ", createTime=" + createTime +
+                ", videoOrderList=" + videoOrderList +
                 '}';
     }
 }

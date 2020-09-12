@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa685529-4580-4680-82a6-0af7d24f58e0" name="Default Changelist" comment="" />
+    <list default="true" id="aa685529-4580-4680-82a6-0af7d24f58e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/xdclass/online_class/SqlSessionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/xdclass/online_class/SqlSessionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/xdclass/online_class/dao/VideoOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/xdclass/online_class/dao/VideoOrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/xdclass/online_class/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/xdclass/online_class/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/VideoOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/VideoOrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/VideoOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/VideoOrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/xdclass/online_class/SqlSessionDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/xdclass/online_class/SqlSessionDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/xdclass/online_class/dao/VideoOrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/xdclass/online_class/dao/VideoOrderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/xdclass/online_class/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/xdclass/online_class/domain/User.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +29,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -26,7 +40,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1hDjKRwtFJ004nRWKZQyDaHeg91" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mapper" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -72,5 +88,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/xdclass/online_class/SqlSessionDemo.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/xdclass/online_class/SqlSessionDemo.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
