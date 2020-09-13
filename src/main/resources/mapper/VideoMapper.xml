@@ -14,7 +14,11 @@
     <sql id="base_video_field">
         id,title,summary,cover_img
     </sql>
-    
+
+    <!-- 开启mapper的namespace下的二级缓存 -->
+    <cache eviction="LRU" flushInterval="100000" readOnly="true" size="1024"/>
+
+
     <!--
         statement sql
         id: 当前mapper下需要唯一 与dao中方法名一致

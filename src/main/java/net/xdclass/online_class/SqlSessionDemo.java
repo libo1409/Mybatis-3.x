@@ -24,7 +24,7 @@ public class SqlSessionDemo {
         InputStream inputStream = Resources.getResourceAsStream(source);
         //构建Session工厂
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
-        //获取Session
+        //获取Session  jdk 1.8 新语法
         try (SqlSession sqlSession = sqlSessionFactory.openSession()){
 
             //VideoMapper.class 操作
