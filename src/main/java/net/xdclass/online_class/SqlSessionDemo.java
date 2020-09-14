@@ -101,14 +101,27 @@ public class SqlSessionDemo {
 
 
             //resultMap association关联查询
-            VideoOrderMapper videoOrderMapper = sqlSession.getMapper(VideoOrderMapper.class);
+//            VideoOrderMapper videoOrderMapper = sqlSession.getMapper(VideoOrderMapper.class);
 //            List<VideoOrder> videoOrderList = videoOrderMapper.queryVideoOrderList();
 //            System.out.println(videoOrderList);
 
 
             //resultMap collection关联查询
-            List<User> userList = videoOrderMapper.queryUserOrder();
-            System.out.println(userList);
+//            List<User> userList = videoOrderMapper.queryUserOrder();
+//            System.out.println(userList);
+
+             //  resultMap association关联查询 (测试懒加载)
+            VideoOrderMapper videoOrderMapper = sqlSession.getMapper(VideoOrderMapper.class);
+            List<VideoOrder> videoOrderList = videoOrderMapper.queryVideoOrderListLazy();
+            System.out.println(videoOrderList.size());
+
+            //演示的 是6条订单记录,但是只查询了3次用户信息,是因为部分用户走了一级缓存sqlSession
+            for (VideoOrder videoOrder : videoOrderList){
+
+                System.out.println(videoOrder.getVideoTitle());
+                System.out.println(videoOrder.getUser().getName());
+            }
+
         }
 
     }

@@ -11,6 +11,13 @@
 
         <!--  这个配置使全局的映射器(二级缓存) 启用或者禁用缓存,全局总开关,这里关闭,mapper中开启了也没用  -->
         <setting name="cacheEnabled" value="true" />
+
+        <!-- 延迟加载总开关  -->
+        <setting name="lazyLoadingEnabled" value="true"/>
+
+        <!-- 将aggressiveLazyLoading设置为false,表示按需加载,默认为true  -->
+        <setting name="aggressiveLazyLoading" value="false"/>
+
     </settings>
 
     <!-- 类型别名-->

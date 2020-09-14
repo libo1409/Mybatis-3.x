@@ -25,7 +25,7 @@
         resultType:sql查询结果集的封装
     -->
 
-    <select id="selectById" resultType="net.xdclass.online_class.domain.Video">
+    <select id="selectById" resultType="net.xdclass.online_class.domain.Video" useCache="false">
         <!--select title,summary,cover_img from video where id = #{video_id}-->
         select <include refid="base_video_field"/> from video where id = #{video_id,jdbcType=INTEGER}
     </select>
