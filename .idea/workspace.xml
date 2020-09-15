@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa685529-4580-4680-82a6-0af7d24f58e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/xdclass/online_class/TransactionDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/xdclass/online_class/SqlSessionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/xdclass/online_class/SqlSessionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/xdclass/online_class/dao/VideoOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/xdclass/online_class/dao/VideoOrderMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/VideoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/VideoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/VideoOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/VideoOrderMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/config/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/VideoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/VideoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/VideoOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/VideoOrderMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/net/xdclass/online_class/SqlSessionDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/xdclass/online_class/SqlSessionDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/xdclass/online_class/dao/VideoOrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/xdclass/online_class/dao/VideoOrderMapper.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,11 +39,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testtet" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -74,8 +69,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="SqlSessionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.xdclass.online_class.SqlSessionDemo" />
+    <configuration name="TransactionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.xdclass.online_class.TransactionDemo" />
       <module name="xdmybatis" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,7 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SqlSessionDemo" />
+        <item itemvalue="Application.TransactionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +101,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="二级缓存案例" />
-    <option name="LAST_COMMIT_MESSAGE" value="二级缓存案例" />
+    <MESSAGE value="懒加载" />
+    <option name="LAST_COMMIT_MESSAGE" value="懒加载" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -123,7 +119,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/net/xdclass/online_class/SqlSessionDemo.java</url>
-          <line>119</line>
+          <line>121</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>

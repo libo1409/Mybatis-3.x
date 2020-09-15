@@ -120,6 +120,7 @@ public class SqlSessionDemo {
 
                 System.out.println(videoOrder.getVideoTitle());
                 System.out.println(videoOrder.getUser().getName());
+
             }
 
         }
